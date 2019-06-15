@@ -1,0 +1,54 @@
+.task-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.task-form-container .task {
+    width: auto;
+}
+
+.task-form {
+    min-height: calc(100vh - 140px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #00cccc;
+    box-shadow: 1px 1px 2px 3px #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-form label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.task-form input, .task-form textarea {
+    background-color: #fff;
+    color: #000;
+    border:none;
+}
+.task-form input{
+    height: 30px;
+    width: 300px;
+}
+.task-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.task-form button {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: green;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5em;
+}
+
+.task-form button:hover {
+    box-shadow: 2px 2px 2px rgb(42, 44, 42);
+}
